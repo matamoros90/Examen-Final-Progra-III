@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "GastoApp",
+    "slug": "gasto-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#6C63FF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.umg.gastoapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6C63FF"
+      },
+      "package": "com.umg.gastoapp",
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "SCHEDULE_EXACT_ALARM"
+      ]
+    },
+    "plugins": []
+  }
+}
